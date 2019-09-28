@@ -5,11 +5,10 @@
     values: hidden(Default, the overflow is not clipped) , visible, scroll, auto
     */
     background-color: white;
+    position: fixed;
+    width: 100%;
 }
 
-.navbar:hover{
-    outline: 2px dashed royalblue;
-}
 
 .navbar a{
     float: left;

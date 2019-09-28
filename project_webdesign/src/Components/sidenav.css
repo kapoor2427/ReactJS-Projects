@@ -1,0 +1,35 @@
+.sidenav{
+    float: left;
+    height: 100%;
+    width: 215px;
+    position: fixed;
+    overflow-y: scroll; 
+    z-index: 1;
+    top: 8.5%;
+    left: 0%;
+    background-color: azure;
+    padding-left: 20px;
+}
+
+.sidenav h3{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+td{
+    padding: 5px;
+}
+
+.sidenav table tr td a {
+    text-decoration: none solid rgb(34,34,34);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidenav table tr td a:hover{
+    color: red;
+}
+
