@@ -1,0 +1,52 @@
+.navbar{
+    overflow: hidden;
+    /* The overflow property specifies whether to clip the content or to add scrollbars 
+    when the content of an element is too big to fit in the specified area. 
+    values: hidden(Default, the overflow is not clipped) , visible, scroll, auto
+    */
+    background-color: white;
+}
+
+.navbar:hover{
+    outline: 2px dashed royalblue;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    padding: 15px 0 15px 0;
+    text-decoration: none solid rgb(34, 34, 34);
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+}
+
+.navbar a:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid red;
+}
+
+.navbar input[type=text]{
+    float: right;
+    font-size: 14px;
+    text-decoration: none solid rgb(34, 34, 34);
+    display: block;
+    margin: 15px 20px 15px 10px;
+    padding: 4px 0 4px 10px;
+    background-color: aliceblue;
+}
+
+.navbar button{
+    float: right;
+    margin: 15px 20px 15px 10px;
+    padding: 4px 10px 4px 10px;
+    font-weight: 700;
+    display: block; 
+}
+
+.navbar button:hover{
+    color: brown;
+}
